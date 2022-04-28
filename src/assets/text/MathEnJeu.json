@@ -21,7 +21,8 @@
       "After effect",
       "Trello/ClickUp"
     ],
-    "duration": "fév. 2021 - déc. 2021"
+    "duration": "fév. 2021 - déc. 2021",
+    "imageUrl": "MEJ_00_Couverture.png"
   },
   "content": {
     "mandate": {
@@ -41,7 +42,7 @@
       "section2": {
         "title": "MVP",
         "content": "Un MVP, minimum viable product, avait également été commencé ce qui m'a permis d'explorer la navigation et les fonctionnalités qui allaient être présentes. Voici notamment un schéma de type User Flow qui avait été fait avant mon arrivée.",
-        "image": "/assets/images/projects/mathEnJeu/01.png"
+        "image": "/assets/images/projects/mathEnJeu/MEJ_01_MVP.png"
       }
     },
     "functionalSketch": {
@@ -58,7 +59,7 @@
         "Le pointage des autres joueurs"
       ],
       "content2": "J'ai ensuite créé une première version préliminaire des maquettes fonctionnelles en suivant le nouveau User Flow",
-      "image": "/assets/images/projects/mathEnJeu/02.png"
+      "image": "/assets/images/projects/mathEnJeu/MEJ_02_UserFlow.png"
     },
     "artisticDirection": {
       "title": "Direction artistique",
@@ -86,27 +87,27 @@
         {
           "title": "Plateau et éléments du décor évolutif",
           "content": "Voici le processus d'exploration qui a mené à la création du plateau de jeu qui allait être de taille variable selon la durée de la partie. Nous avions aussi déterminé qu'il s'agirait d'une vue isométrique. Voici ensuite le processus pour les éléments de décor inspiré du Steampunk, mais qui respecte à la fois l'ambiance désertique du plateau. L'intégration a demandé une bonne débrouillardise pour apprendre à utiliser ce logiciel et intégrer les visuels que j'avais créés.",
-          "image": "/assets/images/projects/mathEnJeu/03.png"
+          "image": "/assets/images/projects/mathEnJeu/MEJ_03_Plateau.png"
         },
         {
           "title": "Personnage du robot",
           "content": "J'ai ensuite effectué plusieurs esquisses pour créer le personnage qui a été un défi pour qu'il demeure intéressant et inclusif pour tous les joueurs.",
-          "image": "/assets/images/projects/mathEnJeu/04.png"
+          "image": "/assets/images/projects/mathEnJeu/MEJ_04_Robot.png"
         },
         {
           "title": "Items",
           "content": "Étant donné que la direction artistique était très différente de la version originale du jeu, nous avons également eu à retravailler les items que le joueur pouvait ramasser dans le jeu. Par exemple, la banane qui ralentit un joueur adverse est devenue un nuage électrique qui créer un court circuit dans le robot. Voici le processus.",
-          "image": "/assets/images/projects/mathEnJeu/05.png"
+          "image": "/assets/images/projects/mathEnJeu/MEJ_05_Items.png"
         },
         {
           "title": "Interfaces",
           "content": "J'ai également aidé pour l'idéation du style des interfaces pour que celui-ci demeure cohérent avec les éléments visuels précédents.",
-          "image": "/assets/images/projects/mathEnJeu/06.png"
+          "image": "/assets/images/projects/mathEnJeu/MEJ_06_Intrefaces.png"
         },
         {
           "title": "Promotion",
           "content": "Une fois la création de toutes ces étapes terminées, j'ai ensuite travaillé sur le matériel promotionnel du jeu comme l'affiche du jeu et les publications sur le site web et les médias sociaux",
-          "image": "/assets/images/projects/mathEnJeu/07.png"
+          "image": "/assets/images/projects/mathEnJeu/MEJ_07_Promo.png"
         }
       ]
     }

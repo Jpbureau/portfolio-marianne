@@ -20,10 +20,10 @@ const Header: React.FC = () => {
       className={scrolled ? "app-header app-header-shadow" : "app-header"}
     >
       <NavLink to={"/"} className="nav-item-left heavy-weight-font">
-        <span className="bold-text">Marianne</span>
+        <span className="bold-text">marianne bolduc</span>
       </NavLink>
       <NavLink to={"/about"} className="nav-item-right heavy-weight-font">
-        <span className="bold-text">À propos</span>
+        <span className="bold-text">à propos de moi</span>
       </NavLink>
     </header>
   );

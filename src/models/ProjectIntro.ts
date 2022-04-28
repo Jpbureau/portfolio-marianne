@@ -7,4 +7,5 @@ export default interface ProjectIntro {
   roles: string[];
   tools: string[];
   duration: string;
+  imageUrl: string;
 }
