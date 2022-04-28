@@ -1,0 +1,42 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #282c34;
+  margin-bottom: 27px;
+}
+
+.footer-item1 {
+  margin-left: 80px;
+  font-size: 12px;
+}
+
+.footer-item2 {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 80px;
+}
+
+.footer-item2 > a {
+  color: inherit;
+  margin-left: 17px;
+}
+
+.footer-item2 > a:link {
+  text-decoration: underline;
+}
+
+.footer-item2 > a:hover {
+  text-decoration: none;
+}
+
+.linkedin-icon {
+  font-size: 25px;
+}
+
+.behance-icon {
+  font-size: 30px;
+  position: relative;
+  top: 3px;
+}

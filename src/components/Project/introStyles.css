@@ -1,0 +1,30 @@
+.company-container {
+  text-align: center;
+}
+
+.company-container > h2 {
+  margin: 0px;
+}
+
+.company-container > p {
+  margin: 0px;
+}
+
+.intro-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 114px;
+  color: #333333;
+}
+
+.project-title {
+  margin: 0px;
+  margin-top: 13px;
+}
+
+.project-details-container {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}

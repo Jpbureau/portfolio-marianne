@@ -1,0 +1,19 @@
+.image-container {
+  display: flex;
+  max-height: auto;
+  max-width: 85%;
+  margin: 0 auto;
+  position: relative;
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0);
+}
+
+.canvas {
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}

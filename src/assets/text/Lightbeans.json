@@ -1,0 +1,12 @@
+{
+  "intro": {
+    "mainTitle": "Lightbeans",
+    "subtitle": "Plateforme de visualisation",
+    "authors": "Heitor Costa et Marianne Bolduc",
+    "projectTitle": "eyeDesigner",
+    "overview": "Project overview: A brief summary of what your project covers, and what kind of impact it had on the company.",
+    "roles": ["Heitor Costa :", "Marianne Bolduc :"],
+    "tools": ["Figma", "Illustrator", "After Effects"],
+    "duration": "1 month (on and off) in 2021"
+  }
+}

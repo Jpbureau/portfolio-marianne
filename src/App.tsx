@@ -1,24 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import About from "./pages/About/About";
+import Header from "./components/Header/Header";
+import Main from "./pages/Main/Main";
+import Footer from "./components/Footer/Footer";
+import CardInfo from "./models/CardInfo";
+import MathEnJeu from "./components/Project/MathEnJeu";
+import { Lightbeans } from "./components/Project/LightBeans";
 
 function App() {
+  const [cards] = useState<CardInfo[]>([
+    {
+      name: "eyeDesigner",
+      url: "/eyeDesigner",
+      description: "jeu  sur watchOS",
+    },
+    {
+      name: "Lightbeans",
+      url: "/lightbeans",
+      description: "visualisation de matériaux",
+    },
+    {
+      name: "Math en jeu",
+      url: "/mathEnJeu",
+      description: "jeu vidéo éducatif",
+    },
+  ]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header />
+        <div className="App-content">
+          <Routes>
+            <Route path="/" element={<Main cards={cards} />}></Route>
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/mathEnJeu" element={<MathEnJeu />}></Route>
+            <Route path="/eyeDesigner" element={<Lightbeans />}></Route>
+            <Route path="/lightbeans" element={<Lightbeans />}></Route>
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
