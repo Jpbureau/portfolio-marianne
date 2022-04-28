@@ -1,6 +1,5 @@
 import CardList from "../../components/CardList/CardList";
 import CardInfo from "../../models/CardInfo";
-import "./styles.css";
 
 interface Props {
   cards: CardInfo[];
@@ -8,7 +7,7 @@ interface Props {
 
 const Main: React.FC<Props> = ({ cards }) => {
   return (
-    <div className="main-container">
+    <div>
       <CardList cards={cards} />
     </div>
   );

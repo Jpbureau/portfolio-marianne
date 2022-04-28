@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import TWEEN from "tween.ts";
-import "./styles.css";
+import "./cardParallaxStyles.css";
 import Layer from "../../models/Layer";
 
 interface Props {
