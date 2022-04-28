@@ -66,9 +66,9 @@
       "section1": {
         "content1": [
           "À cette étape, l'équipe initiale de conception a été bonifiée par une équipe de consultant externe.",
-          "Dans le but de créer un environnement intéressant et stimulant pour le joueur, nous avons souhaité ajouter une dimension narrative qui n’était pas présente dans la précédente version du jeu. Après plusieurs rencontres en équipe à brainstormer, réfléchir et esquisser, nous avions un grand intérêt pour l'univers Steampunk que nous avons adapté pour être plus ludiques et qui nous a servi de base pour élaborer une histoire pour donner un sens au jeu et aux personnages."
-        ],
-        "content2": "Robots un peu maladroits qui proviennent d'un futur lointain et qui voyage dans le temps et l'espace pour retrouver des cristaux de connaissance qui ont été perdus. Ce contexte nous a donné une ligne directrice pour ajuster certaines mécaniques de jeu et la direction artistique du jeu."
+          "Dans le but de créer un environnement intéressant et stimulant pour le joueur, nous avons souhaité ajouter une dimension narrative qui n’était pas présente dans la précédente version du jeu. Après plusieurs rencontres en équipe à brainstormer, réfléchir et esquisser, nous avions un grand intérêt pour l'univers Steampunk que nous avons adapté pour être plus ludiques et qui nous a servi de base pour élaborer une histoire pour donner un sens au jeu et aux personnages.",
+          "Robots un peu maladroits qui proviennent d'un futur lointain et qui voyage dans le temps et l'espace pour retrouver des cristaux de connaissance qui ont été perdus. Ce contexte nous a donné une ligne directrice pour ajuster certaines mécaniques de jeu et la direction artistique du jeu."
+        ]
       },
       "section2": {
         "title": "Environnement",
@@ -81,8 +81,10 @@
     },
     "visualElementsCreation": {
       "title": "Création des éléments visuels",
-      "content1": "Après avoir déterminé les grandes lignes de la direction artistique et de la narration du jeu, j'ai été placé à la création des éléments visuels qui se retrouvaient dans le jeu qui était complètement nouveau pour moi, mais qui a été un défi stimulant.",
-      "content2": "Nous nous étions donc entendus sur un environnement plus désertique qui devait pouvoir évoluer au fur et à mesure que les joueurs amassaient des cristaux. J'ai donc commencé une longue phase de recherche et d'esquisse pour préciser davantage cette idée. J'ai également eu plusieurs rencontres avec l'équipe pour présenter mon avancement et discuter de certains éléments",
+      "content1": [
+        "Après avoir déterminé les grandes lignes de la direction artistique et de la narration du jeu, j'ai été placé à la création des éléments visuels qui se retrouvaient dans le jeu qui était complètement nouveau pour moi, mais qui a été un défi stimulant.",
+        "Nous nous étions donc entendus sur un environnement plus désertique qui devait pouvoir évoluer au fur et à mesure que les joueurs amassaient des cristaux. J'ai donc commencé une longue phase de recherche et d'esquisse pour préciser davantage cette idée. J'ai également eu plusieurs rencontres avec l'équipe pour présenter mon avancement et discuter de certains éléments"
+      ],
       "sections": [
         {
           "title": "Plateau et éléments du décor évolutif",

@@ -1,8 +1,9 @@
-import React from "react";
-import Intro from "./Intro";
-import mathEnJeuJson from "../../assets/text/MathEnJeu.json";
-import Section from "./Section";
-import BasicList from "./BasicList";
+import mathEnJeuJson from "../../../assets/text/MathEnJeu.json";
+import BasicList from "../../../components/Project/BasicList";
+import Intro from "../../../components/Project/Intro";
+import Paragraphs from "../../../components/Project/Paragraphs";
+import Section from "../../../components/Project/Section";
+import "../projectStyles.css";
 
 const MathEnJeu: React.FC = () => {
   const content = mathEnJeuJson.content;
@@ -13,7 +14,7 @@ const MathEnJeu: React.FC = () => {
   const visualElementsCreation = content.visualElementsCreation;
 
   return (
-    <div>
+    <div className="project-container">
       <Intro introInfo={mathEnJeuJson.intro} />
       <div>
         <h2>{mandate.title}</h2>
@@ -42,9 +43,7 @@ const MathEnJeu: React.FC = () => {
       </div>
       <div>
         <h2>{artisticDirection.title}</h2>
-        <p>{artisticDirection.section1.content1[0]}</p>
-        <p>{artisticDirection.section1.content1[1]}</p>
-        <p>{artisticDirection.section1.content2}</p>
+        <Paragraphs paragraphs={artisticDirection.section1.content1} />
         <Section
           title={artisticDirection.section2.title}
           content={artisticDirection.section2.content}
@@ -58,8 +57,7 @@ const MathEnJeu: React.FC = () => {
       </div>
       <div>
         <h2>{visualElementsCreation.title}</h2>
-        <p>{visualElementsCreation.content1}</p>
-        <p>{visualElementsCreation.content2}</p>
+        <Paragraphs paragraphs={visualElementsCreation.content1} />
         {visualElementsCreation.sections.map((section) => (
           <Section
             key={section.title}

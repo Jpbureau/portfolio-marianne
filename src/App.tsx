@@ -6,8 +6,9 @@ import Header from "./components/Header/Header";
 import Main from "./pages/Main/Main";
 import Footer from "./components/Footer/Footer";
 import CardInfo from "./models/CardInfo";
-import MathEnJeu from "./components/Project/MathEnJeu";
-import { Lightbeans } from "./components/Project/LightBeans";
+import MathEnJeu from "./pages/Projects/MathEnJeu/MathEnJeu";
+import Lightbeans from "./pages/Projects/EyeDesigner/EyeDesigner";
+import EyeDesigner from "./pages/Projects/EyeDesigner/EyeDesigner";
 
 function App() {
   const [cards] = useState<CardInfo[]>([
@@ -37,7 +38,7 @@ function App() {
             <Route path="/" element={<Main cards={cards} />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/mathEnJeu" element={<MathEnJeu />}></Route>
-            <Route path="/eyeDesigner" element={<Lightbeans />}></Route>
+            <Route path="/eyeDesigner" element={<EyeDesigner />}></Route>
             <Route path="/lightbeans" element={<Lightbeans />}></Route>
           </Routes>
         </div>
