@@ -11,6 +11,7 @@ const Intro: React.FC<Props> = ({ introInfo }) => {
   return (
     <div>
       <div className="company-container">
+        <img src={introInfo.imageUrl} alt="" />
         <p>{introInfo.duration}</p>
         <h1>{introInfo.mainTitle}</h1>
         <h3>{introInfo.subtitle}</h3>
