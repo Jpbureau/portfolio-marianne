@@ -18,7 +18,7 @@ const CardList: React.FC<Props> = ({ cards }) => {
     <div className="card-list-container">
       <h2>hello there !</h2>
       <p className="card-list-paragraph">
-        Je m’appelle Marianne ! Je suis une{" "}
+        Je m’appelle Marianne ! Je suis{" "}
         <span className="bold-text">designer UX/UI</span> passionnée
         d’interfaces de jeux vidéo et actuellement étudiante à la maitrise en
         design d’interaction de l’Université Laval.
