@@ -1,4 +1,9 @@
 import {
+  cadre02,
+  eyeDBG05,
+  eyeDCarte03,
+  eyeDesignerWatch04,
+  eyeDTop01,
   layer1,
   layer2,
   layer3,
@@ -7,29 +12,35 @@ import {
   layer6,
   layer7,
   layer8,
+  lightBeansBG04,
+  lightBeansComposante03,
+  lightBeansTop01,
+  MEJBG04,
+  MEJPerso03,
+  MEJTop01,
 } from "../../assets/images";
 import Layer from "../../models/Layer";
 
 export const getParallaxImages = (projectName: string): Layer[] => {
   switch (projectName) {
     case "eyeDesigner":
-      return layer_list1;
+      return layerListEyeDesigner;
 
     case "Lightbeans":
-      return layer_list2;
+      return layerListLightbeans;
 
     case "Math en jeu":
-      return layer_list3;
+      return layerListMEJ;
 
     default:
       return [];
   }
 };
 
-const layer_list1: Layer[] = [
+const layerListEyeDesigner: Layer[] = [
   {
     image: new Image(),
-    src: layer1,
+    src: eyeDBG05,
     z_index: -2.25,
     position: { x: 0, y: 0 },
     blend: null,
@@ -37,39 +48,15 @@ const layer_list1: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer2,
-    z_index: -2,
+    src: eyeDesignerWatch04,
+    z_index: -1,
     position: { x: 0, y: 0 },
     blend: null,
     opacity: 1,
   },
   {
     image: new Image(),
-    src: layer3,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer4,
-    z_index: -0.5,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer5,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "multiply",
-    opacity: 0.75,
-  },
-  {
-    image: new Image(),
-    src: layer6,
+    src: cadre02,
     z_index: 0,
     position: { x: 0, y: 0 },
     blend: null,
@@ -77,7 +64,7 @@ const layer_list1: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer7,
+    src: eyeDCarte03,
     z_index: 0.8,
     position: { x: 0, y: 0 },
     blend: null,
@@ -85,18 +72,18 @@ const layer_list1: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer8,
+    src: eyeDTop01,
     z_index: 2,
     position: { x: 0, y: 0 },
     blend: null,
-    opacity: 0.9,
+    opacity: 1,
   },
 ];
 
-const layer_list2: Layer[] = [
+const layerListLightbeans: Layer[] = [
   {
     image: new Image(),
-    src: layer1,
+    src: lightBeansBG04,
     z_index: -2.25,
     position: { x: 0, y: 0 },
     blend: null,
@@ -104,39 +91,7 @@ const layer_list2: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer2,
-    z_index: -2,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer3,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer4,
-    z_index: -0.5,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer5,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "multiply",
-    opacity: 0.75,
-  },
-  {
-    image: new Image(),
-    src: layer6,
+    src: cadre02,
     z_index: 0,
     position: { x: 0, y: 0 },
     blend: null,
@@ -144,7 +99,7 @@ const layer_list2: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer7,
+    src: lightBeansComposante03,
     z_index: 0.8,
     position: { x: 0, y: 0 },
     blend: null,
@@ -152,15 +107,50 @@ const layer_list2: Layer[] = [
   },
   {
     image: new Image(),
-    src: layer8,
+    src: lightBeansTop01,
     z_index: 2,
     position: { x: 0, y: 0 },
     blend: null,
-    opacity: 0.9,
+    opacity: 1,
   },
 ];
 
-const layer_list3: Layer[] = [
+const layerListMEJ: Layer[] = [
+  {
+    image: new Image(),
+    src: MEJBG04,
+    z_index: -2.25,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+  {
+    image: new Image(),
+    src: cadre02,
+    z_index: 0,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+  {
+    image: new Image(),
+    src: MEJPerso03,
+    z_index: 0.8,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+  {
+    image: new Image(),
+    src: MEJTop01,
+    z_index: 2,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+];
+
+const basicLayerList: Layer[] = [
   {
     image: new Image(),
     src: layer1,
