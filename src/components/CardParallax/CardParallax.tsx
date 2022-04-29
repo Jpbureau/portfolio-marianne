@@ -136,7 +136,7 @@ const CardParallax: React.FC<Props> = ({ layers }) => {
   };
 
   const getOffset = (layers: any): any => {
-    var touch_multiplier = 0.1;
+    var touch_multiplier = 0.15;
     var touch_offset_x = pointer.x * layers.z_index * touch_multiplier;
     var touch_offset_y = pointer.y * layers.z_index * touch_multiplier;
 
@@ -157,7 +157,7 @@ const CardParallax: React.FC<Props> = ({ layers }) => {
         className="canvas"
         ref={canvasRef}
         width={900}
-        height={1100}
+        height={1000}
       ></canvas>
     </div>
   );

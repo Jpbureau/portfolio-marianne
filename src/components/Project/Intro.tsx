@@ -18,15 +18,15 @@ const Intro: React.FC<Props> = ({ introInfo }) => {
       </div>
       <div className="project-details-container">
         <div>
-          <p>Mon rôle</p>
+          <h3>Mon rôle</h3>
           <BasicList listElements={introInfo.roles} />
         </div>
         <div>
-          <p>Outils logiciels</p>
+          <h3>Outils logiciels</h3>
           <BasicList listElements={introInfo.roles} />
         </div>
         <div>
-          <p>Équipe</p>
+          <h3>Équipe</h3>
           <p>{introInfo.authors}</p>
         </div>
       </div>

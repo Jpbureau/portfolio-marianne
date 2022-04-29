@@ -57,7 +57,7 @@ const MathEnJeu: React.FC = () => {
       </div>
       <div className="project-final-section">
         <h2>{visualElementsCreation.title}</h2>
-        <Paragraphs paragraphs={visualElementsCreation.content1} />
+        <p>{visualElementsCreation.content1}</p>
         {visualElementsCreation.sections.map((section) => (
           <Section
             key={section.title}
@@ -67,6 +67,8 @@ const MathEnJeu: React.FC = () => {
           />
         ))}
       </div>
+      <h2>{mathEnJeuJson.conclusion.title}</h2>
+      <p>{mathEnJeuJson.conclusion.content}</p>
     </div>
   );
 };

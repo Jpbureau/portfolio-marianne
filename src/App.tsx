@@ -54,7 +54,7 @@ function App() {
             <Route path="/eyeDesigner" element={<EyeDesigner />}></Route>
             <Route path="/lightbeans" element={<Lightbeans />}></Route>
           </Routes>
-          (
+
           {scrolled && (
             <ScrollButton
               className="scrollButton"
@@ -63,7 +63,6 @@ function App() {
               }
             />
           )}
-          )
         </div>
         <Footer />
       </BrowserRouter>
