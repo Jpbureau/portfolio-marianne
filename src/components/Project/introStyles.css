@@ -5,6 +5,7 @@
 .company-container > img {
   max-width: 100%;
   margin: auto;
+  margin-bottom: 64px;
 }
 
 .company-container > h2 {
@@ -13,18 +14,6 @@
 
 .company-container > p {
   margin: 0px;
-}
-
-.intro-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 114px;
-  color: #333333;
-}
-
-.project-title {
-  margin: 0px;
-  margin-top: 13px;
 }
 
 .project-details-container {

@@ -8,6 +8,7 @@
   min-height: 128px;
   top: 0;
   background: #fdf1df;
+  z-index: 5;
 }
 
 .app-header-shadow {

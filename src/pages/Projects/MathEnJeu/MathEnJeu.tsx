@@ -55,7 +55,7 @@ const MathEnJeu: React.FC = () => {
           image={""}
         />
       </div>
-      <div>
+      <div className="project-final-section">
         <h2>{visualElementsCreation.title}</h2>
         <Paragraphs paragraphs={visualElementsCreation.content1} />
         {visualElementsCreation.sections.map((section) => (
