@@ -1,13 +1,13 @@
 import React from "react";
 
 interface Props {
-  listElements: string[];
+  items: string[];
 }
 
-const BasicList: React.FC<Props> = ({ listElements }) => {
+const BasicList: React.FC<Props> = ({ items }) => {
   return (
     <ul>
-      {listElements.map((item) => (
+      {items.map((item) => (
         <li key={item}>{item}</li>
       ))}
     </ul>

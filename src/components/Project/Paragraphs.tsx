@@ -12,7 +12,7 @@ const Paragraphs: React.FC<Props> = ({ paragraphs }) => {
       {paragraphs.map((par, i) => (
         <p
           key={i}
-          style={i - 1 === paragraphLength ? { marginBottom: "16px" } : {}}
+          style={i - 1 === paragraphLength ? {} : { marginBottom: "16px" }}
         >
           {par}
         </p>

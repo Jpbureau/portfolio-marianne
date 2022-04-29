@@ -29,23 +29,23 @@
     },
     "priorityList": {
       "title": "Liste de priorités",
-      "content": "Une fois que le concept a été trouvé et précisé, nous avons énuméré les différents écrans de jeu et les informations qui se retrouveraient sur chacune d’elle en ordre de priorité. Cette étape nous a permis de clarifier certains aspects et a facilité la réalisation de la prochaine étape. L’organisation des différents menus a demandé beaucoup de réflexion et d’esquisses pour être en mesure de présenter toutes les informations nécessaires au bon moment sans toutefois surcharger le petit écran de l’Apple Watch.",
-      "image": "/assets/images/projects/eyeDesigner/eyeD_01_Priority.png"
+      "content": "Une fois que le concept a été trouvé et précisé, nous avons énuméré les différents écrans de jeu et les informations qui se retrouveraient sur chacune d’elle en ordre de priorité. Cette étape nous a permis de clarifier certains aspects et a facilité la réalisation de la prochaine étape. L’organisation des différents menus a demandé beaucoup de réflexion et d’esquisses pour être en mesure de présenter toutes les informations nécessaires au bon moment sans toutefois surcharger le petit écran de l’Apple Watch."
     },
     "userFlow": {
       "title": "User flow",
-      "content": "Le user flow a permis de concrétiser la version préliminaire des maquettes tout en ayant une meilleure idée du parcours qui serait suivi par le joueur. En ouvrant le jeu, le joueur devait pouvoir avoir accès facilement à sa partie en cours et, dans le cas d’une première partie, il devait pouvoir passer par les étapes de choix de personnage et de tutoriel pour être en mesure de bien comprendre le fonctionnement du jeu.",
-      "image": "/assets/images/projects/eyeDesigner/eyeD_02_UserFlow.png"
+      "content": "Le user flow a permis de concrétiser la version préliminaire des maquettes tout en ayant une meilleure idée du parcours qui serait suivi par le joueur. En ouvrant le jeu, le joueur devait pouvoir avoir accès facilement à sa partie en cours et, dans le cas d’une première partie, il devait pouvoir passer par les étapes de choix de personnage et de tutoriel pour être en mesure de bien comprendre le fonctionnement du jeu."
     },
     "inspiration": {
       "title": "Inspiration",
-      "content": "Après avoir précisé davantage les interfaces grâce au user flow, nous avons commencé à chercher des idées de style qui serait cohérent avec le thème du jeu. Nous nous sommes donc inspirés majoritairement du style Bahaus avec des formes très géométriques, des grilles circulaires et des couleurs primaires. Nous avons également consulté d’autres jeux sur watchOs pour avoir une meilleure idée de la mise en page et des proportions utilisées pour les éléments visuels dans ce type de jeu.",
-      "image": "/assets/images/projects/eyeDesigner/eyeD_04_Style.png"
+      "content": "Après avoir précisé davantage les interfaces grâce au user flow, nous avons commencé à chercher des idées de style qui serait cohérent avec le thème du jeu. Nous nous sommes donc inspirés majoritairement du style Bahaus avec des formes très géométriques, des grilles circulaires et des couleurs primaires. Nous avons également consulté d’autres jeux sur watchOs pour avoir une meilleure idée de la mise en page et des proportions utilisées pour les éléments visuels dans ce type de jeu."
     },
     "styleGuide": {
       "title": "Guide de style",
-      "content": "Ensuite, j’ai entamé la création des différents pictogrammes pendant qu’Heitor se concentrait sur la phase de prototypage. Au fur et à mesure de la conception, nous avons été en mesure d’établir un guide de style plus précis avec une grille circulaire qui a permis de créer la majorité des éléments graphiques.",
-      "image": "/assets/images/projects/eyeDesigner/eyeD_05_Maquettes.png"
+      "content": "Ensuite, j’ai entamé la création des différents pictogrammes pendant qu’Heitor se concentrait sur la phase de prototypage. Au fur et à mesure de la conception, nous avons été en mesure d’établir un guide de style plus précis avec une grille circulaire qui a permis de créer la majorité des éléments graphiques."
+    },
+    "sketches": {
+      "title": "Maquettes haute-fidélité",
+      "content": "Voici à quoi ressemble cette première version des interfaces avec l’intégration des visuels que nous avons créés et en réutilisant le user flow réalisé en début de projet."
     }
   },
   "conclusion": {

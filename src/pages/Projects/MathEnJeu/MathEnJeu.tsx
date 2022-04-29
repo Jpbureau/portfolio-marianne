@@ -1,3 +1,13 @@
+import {
+  MEJ_00_Couverture,
+  MEJ_01_MVP,
+  MEJ_02_UserFlow,
+  MEJ_03_Plateau,
+  MEJ_04_Robot,
+  MEJ_05_Items,
+  MEJ_06_Interfaces,
+  MEJ_07_Promo,
+} from "..";
 import mathEnJeuJson from "../../../assets/text/MathEnJeu.json";
 import BasicList from "../../../components/Project/BasicList";
 import Intro from "../../../components/Project/Intro";
@@ -12,6 +22,15 @@ const MathEnJeu: React.FC = () => {
   const functionalSketch = content.functionalSketch;
   const artisticDirection = content.artisticDirection;
   const visualElementsCreation = content.visualElementsCreation;
+  mathEnJeuJson.intro.imageUrl = MEJ_00_Couverture;
+
+  mathEnJeuJson.content.visualElementsCreation.sections[0].image =
+    MEJ_03_Plateau;
+  mathEnJeuJson.content.visualElementsCreation.sections[1].image = MEJ_04_Robot;
+  mathEnJeuJson.content.visualElementsCreation.sections[2].image =
+    MEJ_06_Interfaces;
+  mathEnJeuJson.content.visualElementsCreation.sections[3].image = MEJ_05_Items;
+  mathEnJeuJson.content.visualElementsCreation.sections[4].image = MEJ_07_Promo;
 
   return (
     <div className="project-container">
@@ -20,7 +39,7 @@ const MathEnJeu: React.FC = () => {
         <h2>{mandate.title}</h2>
         <p>{mandate.content}</p>
         <h3>{mandate.subtitle}</h3>
-        <BasicList listElements={content.mandate.objectives} />
+        <BasicList items={content.mandate.objectives} />
       </div>
       <div>
         <Section
@@ -31,15 +50,15 @@ const MathEnJeu: React.FC = () => {
         <Section
           title={familiarization.section2.title}
           content={familiarization.section2.content}
-          image={familiarization.section2.image}
+          image={MEJ_01_MVP}
         />
       </div>
       <div>
         <h2>{functionalSketch.title}</h2>
         <p>{functionalSketch.content1}</p>
-        <BasicList listElements={functionalSketch.list} />
+        <BasicList items={functionalSketch.list} />
         <p>{functionalSketch.content2}</p>
-        <img style={{ width: "100%" }} src={functionalSketch.image} alt="" />
+        <img style={{ width: "100%" }} src={MEJ_02_UserFlow} alt="" />
       </div>
       <div>
         <h2>{artisticDirection.title}</h2>

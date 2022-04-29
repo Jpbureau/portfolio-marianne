@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  eyeD_00_Couverture,
+  eyeD_01_Priority,
+  eyeD_02_UserFlow,
+  eyeD_03_Inspiration,
+  eyeD_04_Style,
+  eyeD_05_Maquettes,
+} from "..";
 import eyeDesignerJson from "../../../assets/text/EyeDesigner.json";
 import Intro from "../../../components/Project/Intro";
 import SmallSection from "../../../components/Project/SmallSection";
@@ -11,6 +19,8 @@ const EyeDesigner: React.FC = () => {
   const userFlow = content.userFlow;
   const inspiration = content.inspiration;
   const styleGuide = content.styleGuide;
+  const sketches = content.sketches;
+  eyeDesignerJson.intro.imageUrl = eyeD_00_Couverture;
 
   return (
     <div className="project-container">
@@ -22,22 +32,27 @@ const EyeDesigner: React.FC = () => {
       <SmallSection
         title={priorityList.title}
         content={priorityList.content}
-        image={priorityList.image}
+        image={eyeD_01_Priority}
       />
       <SmallSection
         title={userFlow.title}
         content={userFlow.content}
-        image={userFlow.image}
+        image={eyeD_02_UserFlow}
       />
       <SmallSection
         title={inspiration.title}
         content={inspiration.content}
-        image={inspiration.image}
+        image={eyeD_03_Inspiration}
       />
       <SmallSection
         title={styleGuide.title}
         content={styleGuide.content}
-        image={styleGuide.image}
+        image={eyeD_04_Style}
+      />
+      <SmallSection
+        title={sketches.title}
+        content={sketches.content}
+        image={eyeD_05_Maquettes}
       />
       <div className="project-final-section">
         <h2>{eyeDesignerJson.conclusion.title}</h2>

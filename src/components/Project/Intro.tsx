@@ -19,11 +19,11 @@ const Intro: React.FC<Props> = ({ introInfo }) => {
       <div className="project-details-container">
         <div>
           <h3>Mon rôle</h3>
-          <BasicList listElements={introInfo.roles} />
+          <BasicList items={introInfo.roles} />
         </div>
         <div>
           <h3>Outils logiciels</h3>
-          <BasicList listElements={introInfo.roles} />
+          <BasicList items={introInfo.roles} />
         </div>
         <div>
           <h3>Équipe</h3>

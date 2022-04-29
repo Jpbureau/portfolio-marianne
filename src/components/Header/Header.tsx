@@ -2,19 +2,11 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./headerStyles.css";
 
-const Header: React.FC = () => {
-  const [scrolled, setScrolled] = useState(false);
+interface Props {
+  scrolled: boolean;
+}
 
-  useEffect(() => {
-    window.onscroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-  }, []);
-
+const Header: React.FC<Props> = ({ scrolled }) => {
   return (
     <header
       className={scrolled ? "app-header app-header-shadow" : "app-header"}

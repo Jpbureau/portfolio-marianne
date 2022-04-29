@@ -20,7 +20,7 @@
       "Trello/ClickUp"
     ],
     "duration": "fév. 2021 - déc. 2021",
-    "imageUrl": "/assets/images/projects/mathEnJeu/MEJ_00_Couverture.png"
+    "imageUrl": ""
   },
   "content": {
     "mandate": {
@@ -39,8 +39,7 @@
       },
       "section2": {
         "title": "MVP",
-        "content": "Un MVP, « minimum viable product », avait également été programmé, ce qui m’a permis d’explorer la navigation et les fonctionnalités implémentées jusqu’à présent. Voici notamment un schéma de type user flow qui avait été fait avant mon arrivée.",
-        "image": "/assets/images/projects/mathEnJeu/MEJ_01_MVP.png"
+        "content": "Un MVP, « minimum viable product », avait également été programmé, ce qui m’a permis d’explorer la navigation et les fonctionnalités implémentées jusqu’à présent. Voici notamment un schéma de type user flow qui avait été fait avant mon arrivée."
       }
     },
     "functionalSketch": {
@@ -56,8 +55,7 @@
         "La position des autres joueurs",
         "Et le pointage des autres joueurs"
       ],
-      "content2": "J’ai ensuite créé une première version des maquettes fonctionnelles en reprenant la forme du user flow initial. Un des défis lors de la réalisation de ces interfaces préliminaires a été de tenir en compte les différentes situations possibles dans la salle « pregame ». En effet, un joueur a la possibilité de jouer en solo, en petit groupe privé avec des amis ou ouvert à tous et en grand groupe d’une quarantaine de joueurs. Certaines options variaient aussi si le joueur était un invité ou le maître de la partie.",
-      "image": "/assets/images/projects/mathEnJeu/MEJ_02_UserFlow.png"
+      "content2": "J’ai ensuite créé une première version des maquettes fonctionnelles en reprenant la forme du user flow initial. Un des défis lors de la réalisation de ces interfaces préliminaires a été de tenir en compte les différentes situations possibles dans la salle « pregame ». En effet, un joueur a la possibilité de jouer en solo, en petit groupe privé avec des amis ou ouvert à tous et en grand groupe d’une quarantaine de joueurs. Certaines options variaient aussi si le joueur était un invité ou le maître de la partie."
     },
     "artisticDirection": {
       "title": "Direction artistique",
@@ -83,27 +81,27 @@
         {
           "title": "Plateau et éléments du décor évolutif",
           "content": "Voici le processus d’exploration qui a mené à la création du plateau de jeu qui devait être de taille variable selon la durée de la partie. Les éléments du décor ont été créés en 3D sur Asset Forge pour ensuite être peaufinés sur Procreate afin d’ajouter certains détails à la main, et pour finir sur Adobe Illustrator pour redimensionner les éléments et ajouter quelques détails supplémentaires comme les ombres. J’ai également appris à créer des « spritesheet » pour faciliter leur intégration. De plus, certains éléments plus importants du décor allaient être fixes alors que tous les autres éléments comme les herbes, les rochers et les tuyaux allaient être générés de façon aléatoire. Nous avions aussi déterminé qu’il s’agirait d’une vue isométrique. L’intégration a d’ailleurs été un défi très intéressant qui a demandé une bonne débrouillardise pour être en mesure d’apprendre à utiliser le logiciel Tiled et intégrer les visuels que j’avais créés pour concrétiser le plateau de jeu esquissé plutôt.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_03_Plateau.png"
+          "image": ""
         },
         {
           "title": "Personnage du robot",
           "content": "Une fois les éléments de décor bien avancés, j’ai ensuite effectué plusieurs esquisses pour créer le personnage qui devait demeurer amusant, intéressant et inclusif pour tous les joueurs.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_04_Robot.png"
+          "image": ""
         },
         {
           "title": "Interfaces",
           "content": "Vers la fin du projet, j’ai également aidé une autre designer pour l’idéation du style des interfaces afin que celui-ci demeure cohérent avec les éléments visuels du plateau de jeu. La mise au propre a ensuite été faite par cette designer.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_06_Intrefaces.png"
+          "image": ""
         },
         {
           "title": "Items",
           "content": "Étant donné que la direction artistique était très différente de la version originale du jeu, nous avons également eu à retravailler les items que le joueur pouvait collecter dans le jeu tout en s’assurant d’éviter certains stéréotypes liés aux mathématiques. Par exemple, la banane qui ralentit un joueur adverse est devenue un nuage électrique qui crée un court-circuit dans le robot.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_05_Items.png"
+          "image": ""
         },
         {
           "title": "Promotion",
           "content": "Une fois la création des différents éléments visuels terminée, j’ai finalement travaillé sur le matériel promotionnel du jeu comme l’affiche du jeu, les publications sur les médias sociaux et même une bannière pour les évènements.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_07_Promo.png"
+          "image": ""
         }
       ]
     }

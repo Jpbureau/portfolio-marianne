@@ -62,6 +62,8 @@ body li {
 
 .bold-text {
   font-weight: 800;
+  color: black;
+  text-decoration: none;
 }
 
 .heavy-weight-font {
@@ -71,6 +73,7 @@ body li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {

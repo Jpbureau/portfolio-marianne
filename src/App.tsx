@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename="/portfolio-marianne">
-        <Header />
+        <Header scrolled={scrolled} />
         <div className="App-content">
           <Routes>
             <Route path="/" element={<Main cards={cards} />}></Route>
