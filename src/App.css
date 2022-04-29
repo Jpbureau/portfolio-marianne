@@ -12,3 +12,15 @@
   max-width: 1020px;
   margin: auto;
 }
+
+.scrollButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+.scrollButton:hover {
+  cursor: pointer;
+}

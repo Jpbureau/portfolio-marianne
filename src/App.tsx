@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About/About";
@@ -9,6 +9,7 @@ import CardInfo from "./models/CardInfo";
 import MathEnJeu from "./pages/Projects/MathEnJeu/MathEnJeu";
 import Lightbeans from "./pages/Projects/EyeDesigner/EyeDesigner";
 import EyeDesigner from "./pages/Projects/EyeDesigner/EyeDesigner";
+import { ReactComponent as ScrollButton } from "./assets/images/scroll_up_button.svg";
 
 function App() {
   const [cards] = useState<CardInfo[]>([
@@ -29,6 +30,18 @@ function App() {
     },
   ]);
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+  }, []);
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -41,6 +54,16 @@ function App() {
             <Route path="/eyeDesigner" element={<EyeDesigner />}></Route>
             <Route path="/lightbeans" element={<Lightbeans />}></Route>
           </Routes>
+          (
+          {scrolled && (
+            <ScrollButton
+              className="scrollButton"
+              onClick={() =>
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+              }
+            />
+          )}
+          )
         </div>
         <Footer />
       </BrowserRouter>
