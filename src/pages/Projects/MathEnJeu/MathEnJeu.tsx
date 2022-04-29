@@ -55,7 +55,7 @@ const MathEnJeu: React.FC = () => {
           image={""}
         />
       </div>
-      <div className="project-final-section">
+      <div>
         <h2>{visualElementsCreation.title}</h2>
         <p>{visualElementsCreation.content1}</p>
         {visualElementsCreation.sections.map((section) => (
@@ -67,8 +67,10 @@ const MathEnJeu: React.FC = () => {
           />
         ))}
       </div>
-      <h2>{mathEnJeuJson.conclusion.title}</h2>
-      <p>{mathEnJeuJson.conclusion.content}</p>
+      <div className="project-final-section">
+        <h2>{mathEnJeuJson.conclusion.title}</h2>
+        <p>{mathEnJeuJson.conclusion.content}</p>
+      </div>
     </div>
   );
 };

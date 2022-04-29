@@ -8,6 +8,15 @@
   margin-bottom: 24px;
 }
 
+.project-container img {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.project-container p {
+  margin: 0;
+}
+
 .project-final-section {
   margin-bottom: 64px;
 }

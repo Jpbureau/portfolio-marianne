@@ -7,7 +7,7 @@ import Main from "./pages/Main/Main";
 import Footer from "./components/Footer/Footer";
 import CardInfo from "./models/CardInfo";
 import MathEnJeu from "./pages/Projects/MathEnJeu/MathEnJeu";
-import Lightbeans from "./pages/Projects/EyeDesigner/EyeDesigner";
+import Lightbeans from "./pages/Projects/Lightbeans/Lightbeans";
 import EyeDesigner from "./pages/Projects/EyeDesigner/EyeDesigner";
 import { ReactComponent as ScrollButton } from "./assets/images/scroll_up_button.svg";
 

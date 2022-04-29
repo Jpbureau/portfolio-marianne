@@ -1,117 +1,55 @@
 {
   "intro": {
-    "mainTitle": "Math en jeu",
-    "subtitle": "Jeu vidéo éducatif sur les mathématiques",
-    "authors": "SMAC de l'université Laval",
+    "mainTitle": "eyeDesigner",
+    "subtitle": "Jeu watchOs inspiré de Reigns",
+    "authors": "Heitor Costa",
     "projectTitle": "eyeDesigner",
     "overview": "Project overview: A brief summary of what your project covers, and what kind of impact it had on the company.",
     "roles": [
-      "Familiariser avec le jeu",
+      "Élaboration du concept",
       "Création des maquettes fonctionnelles",
-      "Déterminer la direction artistique",
-      "Réfléchir à de nouvelles mécaniques de jeu",
-      "Création des éléments visuels du jeu"
+      "Organisation du user flow",
+      "Recherche d’inspiration",
+      "Création des éléments visuels",
+      "Présentation du concept"
     ],
-    "tools": [
-      "Figma",
-      "Procreate",
-      "Illustrator/Photoshop",
-      "Tiled",
-      "Asset forge",
-      "After effect",
-      "Trello/ClickUp"
-    ],
-    "duration": "fév. 2021 - déc. 2021",
-    "imageUrl": "/assets/images/projects/mathEnJeu/MEJ_00_Couverture.png"
+    "tools": ["Figma", "Procreate", "Adobe Illustrator", "Adobe After effect"],
+    "duration": "novembre 2021",
+    "imageUrl": "/assets/images/projects/eyeDesigner/eyeD_00_Couverture.png"
   },
   "content": {
     "mandate": {
       "title": "Mandat",
-      "content": "Math en jeu est un jeu multijoueur gratuit en ligne portant sur les mathématiques qui a initialement été mis sur pied en 2005 et conçu majoritairement pour les élèves du primaire et du secondaire. Surtout utilisé dans un contexte scolaire pour permettre à toute la classe de jouer ensemble et même de faire jouer des joueurs de différents niveaux scolaires. Le but du jeu est de répondre aux plus de questions possibles pour pouvoir avancer sur le circuit et accumuler des points. Lorsque le temps est écoulé, le joueur ayant le plus de points remporte la partie. Cependant, depuis sa sortie, la technologie a beaucoup évolué et de nombreux changements étaient nécessaires pour garantir la pérennité du jeu notamment pour les interfaces et le style visuel du jeu où j'ai été amené à travailler.",
-      "subtitle": "Objectifs",
-      "objectives": [
-        "Exposer les jeunes de tous les âges aux mathématiques par le jeu et inviter le grand public à renouer avec les mathématiques.",
-        "Créer un univers concret et stimulant en évitant d'ajouter un stress supplémentaire"
-      ]
-    },
-    "familiarization": {
-      "section1": {
-        "title": "Documentation",
-        "content": "J'ai commencé par lire la documentation qui avait été rédigée jusqu'à maintenant et qui décrivait le fonctionnement du jeu, ses objectifs et son contexte ainsi que tout ce qui avait été fait jusqu'à présent et les prochaines étapes qui seraient à faire à court et long terme."
+      "content": "EyeDesigner est un projet personnel réalisé en un mois avec mon collègue Heitor Costa pour la soirée portfolio organisé par Ubisoft Québec. Nous nous étions lancé le défi de faire un jeu dans un format avec lequel nous n’étions pas familiers et qui aurait comme thème le métier de designer. Nous avons donc choisi de créer ce jeu pour le petit écran d’Apple Watch ce qui a amené des contraintes et des défis intéressants. Nous avions aussi un délai serré à respecter, en plus des cours de la maîtrise, qui a demandé une bonne organisation pour être en mesure de présenter une première version du jeu à l’expert en UX lors de la soirée portfolio du 1er décembre.",
+      "section": {
+        "titre": "Concept",
+        "content": "Eye Designer, un clin d’œil au logo Eye Bee M de Paul Rand, est un jeu « choose your own adventure » satirique pour watchOs inspiré de Reigns (lien vers la page du jeu) et de Destin où le joueur est plongé dans le quotidien mouvementé d’un designer et où il devra prendre des décisions qui influenceront le cours de son histoire. Il devra toutefois faire attention au choix qu’il fera afin de garder le plus longtemps possible un équilibre entre son bonheur, son stress, sa réputation et son argent."
       },
-      "section2": {
-        "title": "MVP",
-        "content": "Un MVP, minimum viable product, avait également été commencé ce qui m'a permis d'explorer la navigation et les fonctionnalités qui allaient être présentes. Voici notamment un schéma de type User Flow qui avait été fait avant mon arrivée.",
-        "image": "/assets/images/projects/mathEnJeu/MEJ_01_MVP.png"
-      }
+      "content2": "Dans cette première version que nous avons créée, le joueur aura d’abord la possibilité de choisir l’un des quatre métiers suivants : illustrateur, designer graphique, designer UI/UX et designer industriel. Chacun d’eux a leurs particularités, ce qui influencera leurs jauges de départ et les évènements qu’ils rencontreront. Ensuite, il arrivera plusieurs péripéties issues de certains clichés bien connus du domaine qui amènera le joueur à prendre des décisions qui affecteront le niveau de ses quatre jauges (bonheur, stress, réputation et argent). Il pourra, par exemple, avoir à gérer un client qui aimerait avoir un logo plus grand et plus coloré ou encore qui refuse de payer, des problèmes techniques avec son ordinateur et bien plus. Le but est donc de continuer à jouer le plus longtemps possible sans vider complètement l’une des jauges, ce qui met fin à la partie."
     },
-    "functionalSketch": {
-      "title": "Maquettes fonctionnelles",
-      "content1": "À partir de ce schéma, j'ai été en mesure d'énumérer chacun des écrans qui allaient être nécessaires et de nouveaux écrans qui devaient être ajoutés au User Flow ainsi que les informations en ordre de priorité et les fonctionnalités principales sur chacune delle. Par exemple, lorsque le joueur joue au jeu, il doit être en mesure de voir facilement et rapidement :",
-      "list": [
-        "Sa position sur le plateau",
-        "Les items qu'il est possible de ramasser sur le plateau",
-        "Ses possibilités de déplacement",
-        "Son inventaire qui peut contenir quatre types d'items différents",
-        "Son pointage personnel",
-        "Le temps restant à la partie",
-        "La position des autres joueurs",
-        "Le pointage des autres joueurs"
-      ],
-      "content2": "J'ai ensuite créé une première version préliminaire des maquettes fonctionnelles en suivant le nouveau User Flow",
-      "image": "/assets/images/projects/mathEnJeu/MEJ_02_UserFlow.png"
+    "priorityList": {
+      "title": "Liste de priorités",
+      "content": "Une fois que le concept a été trouvé et précisé, nous avons énuméré les différents écrans de jeu et les informations qui se retrouveraient sur chacune d’elle en ordre de priorité. Cette étape nous a permis de clarifier certains aspects et a facilité la réalisation de la prochaine étape. L’organisation des différents menus a demandé beaucoup de réflexion et d’esquisses pour être en mesure de présenter toutes les informations nécessaires au bon moment sans toutefois surcharger le petit écran de l’Apple Watch.",
+      "image": "/assets/images/projects/eyeDesigner/eyeD_01_Priority.png"
     },
-    "artisticDirection": {
-      "title": "Direction artistique",
-      "section1": {
-        "content1": [
-          "À cette étape, l'équipe initiale de conception a été bonifiée par une équipe de consultant externe.",
-          "Dans le but de créer un environnement intéressant et stimulant pour le joueur, nous avons souhaité ajouter une dimension narrative qui n’était pas présente dans la précédente version du jeu. Après plusieurs rencontres en équipe à brainstormer, réfléchir et esquisser, nous avions un grand intérêt pour l'univers Steampunk que nous avons adapté pour être plus ludiques et qui nous a servi de base pour élaborer une histoire pour donner un sens au jeu et aux personnages.",
-          "Robots un peu maladroits qui proviennent d'un futur lointain et qui voyage dans le temps et l'espace pour retrouver des cristaux de connaissance qui ont été perdus. Ce contexte nous a donné une ligne directrice pour ajuster certaines mécaniques de jeu et la direction artistique du jeu."
-        ]
-      },
-      "section2": {
-        "title": "Environnement",
-        "content": "Le voyage dans le temps et l'espace nous a aidés pour élaborer l'environnement des plateaux de jeu qui permettrait de faire plusieurs niveaux différents et ainsi briser la redondance que les joueurs peuvent ressentir en mathématiques. Cela permettra aussi de créer de nouveau plateau de jeu une fois le jeu mis en ligne pour briser la redondance qui pourrait s'installer après la sortie. Pour la sortie du jeu, nous avons choisi de créer un plateau dans un environnement plus désertique et chaleureux."
-      },
-      "section3": {
-        "title": "Cristaux",
-        "content": "Les cristaux ont été ajoutés pour donner un sens aux points récolté par les joueurs qui vont même être utilisés pour faire changer et évoluer le décor. Plus les joueurs récoltent de cristaux en répondant correctement aux questions, plus ils amassent de « connaissances » ce qui restaure d'une certaine façon l'environnement du plateau de jeu. Cela donne également un objectif plus collaboratif de groupe tout en gardant un certain aspect de compétition entre les joueurs"
-      }
+    "userFlow": {
+      "title": "User flow",
+      "content": "Le user flow a permis de concrétiser la version préliminaire des maquettes tout en ayant une meilleure idée du parcours qui serait suivi par le joueur. En ouvrant le jeu, le joueur devait pouvoir avoir accès facilement à sa partie en cours et, dans le cas d’une première partie, il devait pouvoir passer par les étapes de choix de personnage et de tutoriel pour être en mesure de bien comprendre le fonctionnement du jeu.",
+      "image": "/assets/images/projects/eyeDesigner/eyeD_02_UserFlow.png"
     },
-    "visualElementsCreation": {
-      "title": "Création des éléments visuels",
-      "content1": [
-        "Après avoir déterminé les grandes lignes de la direction artistique et de la narration du jeu, j'ai été placé à la création des éléments visuels qui se retrouvaient dans le jeu qui était complètement nouveau pour moi, mais qui a été un défi stimulant.",
-        "Nous nous étions donc entendus sur un environnement plus désertique qui devait pouvoir évoluer au fur et à mesure que les joueurs amassaient des cristaux. J'ai donc commencé une longue phase de recherche et d'esquisse pour préciser davantage cette idée. J'ai également eu plusieurs rencontres avec l'équipe pour présenter mon avancement et discuter de certains éléments"
-      ],
-      "sections": [
-        {
-          "title": "Plateau et éléments du décor évolutif",
-          "content": "Voici le processus d'exploration qui a mené à la création du plateau de jeu qui allait être de taille variable selon la durée de la partie. Nous avions aussi déterminé qu'il s'agirait d'une vue isométrique. Voici ensuite le processus pour les éléments de décor inspiré du Steampunk, mais qui respecte à la fois l'ambiance désertique du plateau. L'intégration a demandé une bonne débrouillardise pour apprendre à utiliser ce logiciel et intégrer les visuels que j'avais créés.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_03_Plateau.png"
-        },
-        {
-          "title": "Personnage du robot",
-          "content": "J'ai ensuite effectué plusieurs esquisses pour créer le personnage qui a été un défi pour qu'il demeure intéressant et inclusif pour tous les joueurs.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_04_Robot.png"
-        },
-        {
-          "title": "Items",
-          "content": "Étant donné que la direction artistique était très différente de la version originale du jeu, nous avons également eu à retravailler les items que le joueur pouvait ramasser dans le jeu. Par exemple, la banane qui ralentit un joueur adverse est devenue un nuage électrique qui créer un court circuit dans le robot. Voici le processus.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_05_Items.png"
-        },
-        {
-          "title": "Interfaces",
-          "content": "J'ai également aidé pour l'idéation du style des interfaces pour que celui-ci demeure cohérent avec les éléments visuels précédents.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_06_Intrefaces.png"
-        },
-        {
-          "title": "Promotion",
-          "content": "Une fois la création de toutes ces étapes terminées, j'ai ensuite travaillé sur le matériel promotionnel du jeu comme l'affiche du jeu et les publications sur le site web et les médias sociaux",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_07_Promo.png"
-        }
-      ]
+    "inspiration": {
+      "title": "Inspiration",
+      "content": "Après avoir précisé davantage les interfaces grâce au user flow, nous avons commencé à chercher des idées de style qui serait cohérent avec le thème du jeu. Nous nous sommes donc inspirés majoritairement du style Bahaus avec des formes très géométriques, des grilles circulaires et des couleurs primaires. Nous avons également consulté d’autres jeux sur watchOs pour avoir une meilleure idée de la mise en page et des proportions utilisées pour les éléments visuels dans ce type de jeu.",
+      "image": "/assets/images/projects/eyeDesigner/eyeD_04_Style.png"
+    },
+    "styleGuide": {
+      "title": "Guide de style",
+      "content": "Ensuite, j’ai entamé la création des différents pictogrammes pendant qu’Heitor se concentrait sur la phase de prototypage. Au fur et à mesure de la conception, nous avons été en mesure d’établir un guide de style plus précis avec une grille circulaire qui a permis de créer la majorité des éléments graphiques.",
+      "image": "/assets/images/projects/eyeDesigner/eyeD_05_Maquettes.png"
     }
+  },
+  "conclusion": {
+    "title": "Conclusion",
+    "content": "Math en jeu a été un projet stimulant et enrichissant qui m’a appris beaucoup sur plusieurs aspects de la création de jeu allant de l’animation, à la création d’éléments 3D, à la collaboration avec les programmeurs, jusqu’à l’intégration."
   }
 }

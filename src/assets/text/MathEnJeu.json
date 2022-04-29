@@ -3,8 +3,6 @@
     "mainTitle": "Math en jeu",
     "subtitle": "Jeu vidéo éducatif sur les mathématiques",
     "authors": "SMAC de l'université Laval",
-    "projectTitle": "eyeDesigner",
-    "overview": "Project overview: A brief summary of what your project covers, and what kind of impact it had on the company.",
     "roles": [
       "Familiariser avec le jeu",
       "Création des maquettes fonctionnelles",
@@ -15,10 +13,10 @@
     "tools": [
       "Figma",
       "Procreate",
-      "Illustrator/Photoshop",
+      "Adobe Illustrator",
       "Tiled",
       "Asset forge",
-      "After effect",
+      "Adobe After effect",
       "Trello/ClickUp"
     ],
     "duration": "fév. 2021 - déc. 2021",
@@ -27,91 +25,91 @@
   "content": {
     "mandate": {
       "title": "Mandat",
-      "content": "Math en jeu est un jeu multijoueur gratuit en ligne portant sur les mathématiques qui a initialement été mis sur pied en 2005 et conçu majoritairement pour les élèves du primaire et du secondaire. Surtout utilisé dans un contexte scolaire pour permettre à toute la classe de jouer ensemble et même de faire jouer des joueurs de différents niveaux scolaires. Le but du jeu est de répondre aux plus de questions possibles pour pouvoir avancer sur le circuit et accumuler des points. Lorsque le temps est écoulé, le joueur ayant le plus de points remporte la partie. Cependant, depuis sa sortie, la technologie a beaucoup évolué et de nombreux changements étaient nécessaires pour garantir la pérennité du jeu notamment pour les interfaces et le style visuel du jeu où j'ai été amené à travailler.",
+      "content": "Math en jeu est un jeu multijoueur gratuit en ligne portant sur les mathématiques qui a initialement été mis sur pied en 2005. Conçu majoritairement pour les élèves du primaire et du secondaire, ce jeu est surtout utilisé dans un contexte scolaire pour permettre à toute la classe de jouer ensemble et même de regrouper des étudiants de différents niveaux scolaires dans une même partie. Le but du jeu est de répondre au plus de questions possible afin d’avancer sur le circuit et d’accumuler des points. Lorsque le temps est écoulé, le joueur ayant le plus de points remporte la partie. Cependant, la technologie a beaucoup évolué depuis sa sortie et de nombreux changements étaient nécessaires pour garantir la pérennité du jeu, notamment au niveau des interfaces et du style visuel où j’ai été amenée à travailler.",
       "subtitle": "Objectifs",
       "objectives": [
         "Exposer les jeunes de tous les âges aux mathématiques par le jeu et inviter le grand public à renouer avec les mathématiques.",
-        "Créer un univers concret et stimulant en évitant d'ajouter un stress supplémentaire"
+        "Créer un univers concret et stimulant en évitant toutefois d’ajouter un stress supplémentaire."
       ]
     },
     "familiarization": {
       "section1": {
         "title": "Documentation",
-        "content": "J'ai commencé par lire la documentation qui avait été rédigée jusqu'à maintenant et qui décrivait le fonctionnement du jeu, ses objectifs et son contexte ainsi que tout ce qui avait été fait jusqu'à présent et les prochaines étapes qui seraient à faire à court et long terme."
+        "content": "À mon arrivée dans le projet, j’ai commencé par lire la documentation rédigée jusqu’à maintenant qui décrivait le fonctionnement du jeu, ses objectifs, son contexte ainsi que tout ce qui avait été réalisé jusqu’à présent et les prochaines étapes qui seraient à compléter à court et à long terme."
       },
       "section2": {
         "title": "MVP",
-        "content": "Un MVP, minimum viable product, avait également été commencé ce qui m'a permis d'explorer la navigation et les fonctionnalités qui allaient être présentes. Voici notamment un schéma de type User Flow qui avait été fait avant mon arrivée.",
+        "content": "Un MVP, « minimum viable product », avait également été programmé, ce qui m’a permis d’explorer la navigation et les fonctionnalités implémentées jusqu’à présent. Voici notamment un schéma de type user flow qui avait été fait avant mon arrivée.",
         "image": "/assets/images/projects/mathEnJeu/MEJ_01_MVP.png"
       }
     },
     "functionalSketch": {
       "title": "Maquettes fonctionnelles",
-      "content1": "À partir de ce schéma, j'ai été en mesure d'énumérer chacun des écrans qui allaient être nécessaires et de nouveaux écrans qui devaient être ajoutés au User Flow ainsi que les informations en ordre de priorité et les fonctionnalités principales sur chacune delle. Par exemple, lorsque le joueur joue au jeu, il doit être en mesure de voir facilement et rapidement :",
+      "content1": " partir de ce schéma, j’ai été en mesure de commencer la création de maquettes fonctionnelles pour la première version du jeu. J’ai d’abord énuméré tous les écrans qui allaient être nécessaires, dont ceux qui étaient manquants dans le MVP, mais qui devaient être pris en compte pour la suite, notamment les écrans de résultats à la fin d’une partie. Ensuite, j’ai listé en ordre de priorités les informations et les fonctionnalités qui allaient se retrouver sur chacun des écrans. Par exemple, lorsque le joueur est sur le plateau de jeu, il doit être en mesure de voir facilement et rapidement :",
       "list": [
         "Sa position sur le plateau",
-        "Les items qu'il est possible de ramasser sur le plateau",
+        "Les items qu’il peut ramasser sur le plateau",
         "Ses possibilités de déplacement",
-        "Son inventaire qui peut contenir quatre types d'items différents",
+        "Son inventaire qui peut contenir quatre types d’items différents",
         "Son pointage personnel",
         "Le temps restant à la partie",
         "La position des autres joueurs",
-        "Le pointage des autres joueurs"
+        "Et le pointage des autres joueurs"
       ],
-      "content2": "J'ai ensuite créé une première version préliminaire des maquettes fonctionnelles en suivant le nouveau User Flow",
+      "content2": "J’ai ensuite créé une première version des maquettes fonctionnelles en reprenant la forme du user flow initial. Un des défis lors de la réalisation de ces interfaces préliminaires a été de tenir en compte les différentes situations possibles dans la salle « pregame ». En effet, un joueur a la possibilité de jouer en solo, en petit groupe privé avec des amis ou ouvert à tous et en grand groupe d’une quarantaine de joueurs. Certaines options variaient aussi si le joueur était un invité ou le maître de la partie.",
       "image": "/assets/images/projects/mathEnJeu/MEJ_02_UserFlow.png"
     },
     "artisticDirection": {
       "title": "Direction artistique",
       "section1": {
         "content1": [
-          "À cette étape, l'équipe initiale de conception a été bonifiée par une équipe de consultant externe.",
-          "Dans le but de créer un environnement intéressant et stimulant pour le joueur, nous avons souhaité ajouter une dimension narrative qui n’était pas présente dans la précédente version du jeu. Après plusieurs rencontres en équipe à brainstormer, réfléchir et esquisser, nous avions un grand intérêt pour l'univers Steampunk que nous avons adapté pour être plus ludiques et qui nous a servi de base pour élaborer une histoire pour donner un sens au jeu et aux personnages.",
-          "Robots un peu maladroits qui proviennent d'un futur lointain et qui voyage dans le temps et l'espace pour retrouver des cristaux de connaissance qui ont été perdus. Ce contexte nous a donné une ligne directrice pour ajuster certaines mécaniques de jeu et la direction artistique du jeu."
+          "Dans le but de créer un environnement intéressant et stimulant pour le joueur, nous avons souhaité ajouter une dimension narrative qui n’était pas présente dans la précédente version du jeu. Après plusieurs rencontres en équipe à réfléchir et à esquisser, nous avons élaboré des planches d’ambiance et les grandes lignes d’un scénario ludique inspiré de l’univers Steampunk qui ont permis d’ajuster certaines mécaniques de jeu et d’élaborer une direction artistique cohérente :",
+          "Ayant perdu leurs cristaux de connaissances dans un étrange portail, des robots un peu maladroits provenant d’un futur lointain partent à l’aventure dans le temps et l’espace pour tenter de retrouver ces précieux artéfacts."
         ]
       },
       "section2": {
-        "title": "Environnement",
-        "content": "Le voyage dans le temps et l'espace nous a aidés pour élaborer l'environnement des plateaux de jeu qui permettrait de faire plusieurs niveaux différents et ainsi briser la redondance que les joueurs peuvent ressentir en mathématiques. Cela permettra aussi de créer de nouveau plateau de jeu une fois le jeu mis en ligne pour briser la redondance qui pourrait s'installer après la sortie. Pour la sortie du jeu, nous avons choisi de créer un plateau dans un environnement plus désertique et chaleureux."
+        "title": "Cristaux",
+        "content": "Plus précisément, les cristaux de connaissances ont été ajoutés pour donner un sens aux points récoltés par les joueurs et nous ont aussi donné l’idée de les utiliser pour faire changer le décor lors d’une partie. Plus les joueurs accumulent de cristaux en répondant correctement aux questions, plus ils amassent collectivement des connaissances ce qui fait évoluer d’une certaine façon l’environnement du plateau de jeu. Cette nouvelle mécanique donne également un objectif de groupe plus collaboratif tout en gardant un aspect de compétition entre les joueurs."
       },
       "section3": {
-        "title": "Cristaux",
-        "content": "Les cristaux ont été ajoutés pour donner un sens aux points récolté par les joueurs qui vont même être utilisés pour faire changer et évoluer le décor. Plus les joueurs récoltent de cristaux en répondant correctement aux questions, plus ils amassent de « connaissances » ce qui restaure d'une certaine façon l'environnement du plateau de jeu. Cela donne également un objectif plus collaboratif de groupe tout en gardant un certain aspect de compétition entre les joueurs"
+        "title": "Environnement",
+        "content": "De plus, le voyage dans le temps et dans l’espace nous a donné l’inspiration pour l’environnement du plateau de jeu qui permettrait de créer plusieurs décors différents et ainsi briser la redondance que les joueurs peuvent ressentir en effectuant des exercices de mathématiques. Il s’agit également d’une opportunité pour continuer de renouveler et rafraichir le jeu même après sa sortie en proposant de nouveaux plateaux de jeu ou de lancer des évènements thématiques. Pour cette première version du jeu, nous avons d’ailleurs choisi de créer un plateau dans un environnement désertique et chaleureux. La prochaine mise à jour pourrait proposer un environnement marécageux ou un port sur une île."
       }
     },
     "visualElementsCreation": {
       "title": "Création des éléments visuels",
-      "content1": [
-        "Après avoir déterminé les grandes lignes de la direction artistique et de la narration du jeu, j'ai été placé à la création des éléments visuels qui se retrouvaient dans le jeu qui était complètement nouveau pour moi, mais qui a été un défi stimulant.",
-        "Nous nous étions donc entendus sur un environnement plus désertique qui devait pouvoir évoluer au fur et à mesure que les joueurs amassaient des cristaux. J'ai donc commencé une longue phase de recherche et d'esquisse pour préciser davantage cette idée. J'ai également eu plusieurs rencontres avec l'équipe pour présenter mon avancement et discuter de certains éléments"
-      ],
+      "content1": "Après avoir déterminé les grandes lignes de la direction artistique et de la narration du jeu, j’ai eu la responsabilité de créer les éléments visuels qui se retrouvaient dans le jeu. Il s’agit d’un rôle complètement nouveau pour moi et différent de la création d’interfaces, mais que j’ai grandement appréciée et qui m’a permis de développer de nombreuses connaissances complémentaires au design, notamment en lien avec l’intégration des éléments sur un logiciel utilisé par les programmeurs. J’ai donc commencé une longue phase de recherche et d’esquisse pour préciser davantage l’idée d’un désertique qui devait pouvoir évoluer au fur et à mesure de la partie. J’ai également eu plusieurs rencontres avec l’équipe pour présenter mon avancement et discuter de mes propositions.",
       "sections": [
         {
           "title": "Plateau et éléments du décor évolutif",
-          "content": "Voici le processus d'exploration qui a mené à la création du plateau de jeu qui allait être de taille variable selon la durée de la partie. Nous avions aussi déterminé qu'il s'agirait d'une vue isométrique. Voici ensuite le processus pour les éléments de décor inspiré du Steampunk, mais qui respecte à la fois l'ambiance désertique du plateau. L'intégration a demandé une bonne débrouillardise pour apprendre à utiliser ce logiciel et intégrer les visuels que j'avais créés.",
+          "content": "Voici le processus d’exploration qui a mené à la création du plateau de jeu qui devait être de taille variable selon la durée de la partie. Les éléments du décor ont été créés en 3D sur Asset Forge pour ensuite être peaufinés sur Procreate afin d’ajouter certains détails à la main, et pour finir sur Adobe Illustrator pour redimensionner les éléments et ajouter quelques détails supplémentaires comme les ombres. J’ai également appris à créer des « spritesheet » pour faciliter leur intégration. De plus, certains éléments plus importants du décor allaient être fixes alors que tous les autres éléments comme les herbes, les rochers et les tuyaux allaient être générés de façon aléatoire. Nous avions aussi déterminé qu’il s’agirait d’une vue isométrique. L’intégration a d’ailleurs été un défi très intéressant qui a demandé une bonne débrouillardise pour être en mesure d’apprendre à utiliser le logiciel Tiled et intégrer les visuels que j’avais créés pour concrétiser le plateau de jeu esquissé plutôt.",
           "image": "/assets/images/projects/mathEnJeu/MEJ_03_Plateau.png"
         },
         {
           "title": "Personnage du robot",
-          "content": "J'ai ensuite effectué plusieurs esquisses pour créer le personnage qui a été un défi pour qu'il demeure intéressant et inclusif pour tous les joueurs.",
+          "content": "Une fois les éléments de décor bien avancés, j’ai ensuite effectué plusieurs esquisses pour créer le personnage qui devait demeurer amusant, intéressant et inclusif pour tous les joueurs.",
           "image": "/assets/images/projects/mathEnJeu/MEJ_04_Robot.png"
         },
         {
-          "title": "Items",
-          "content": "Étant donné que la direction artistique était très différente de la version originale du jeu, nous avons également eu à retravailler les items que le joueur pouvait ramasser dans le jeu. Par exemple, la banane qui ralentit un joueur adverse est devenue un nuage électrique qui créer un court circuit dans le robot. Voici le processus.",
-          "image": "/assets/images/projects/mathEnJeu/MEJ_05_Items.png"
-        },
-        {
           "title": "Interfaces",
-          "content": "J'ai également aidé pour l'idéation du style des interfaces pour que celui-ci demeure cohérent avec les éléments visuels précédents.",
+          "content": "Vers la fin du projet, j’ai également aidé une autre designer pour l’idéation du style des interfaces afin que celui-ci demeure cohérent avec les éléments visuels du plateau de jeu. La mise au propre a ensuite été faite par cette designer.",
           "image": "/assets/images/projects/mathEnJeu/MEJ_06_Intrefaces.png"
         },
         {
+          "title": "Items",
+          "content": "Étant donné que la direction artistique était très différente de la version originale du jeu, nous avons également eu à retravailler les items que le joueur pouvait collecter dans le jeu tout en s’assurant d’éviter certains stéréotypes liés aux mathématiques. Par exemple, la banane qui ralentit un joueur adverse est devenue un nuage électrique qui crée un court-circuit dans le robot.",
+          "image": "/assets/images/projects/mathEnJeu/MEJ_05_Items.png"
+        },
+        {
           "title": "Promotion",
-          "content": "Une fois la création de toutes ces étapes terminées, j'ai ensuite travaillé sur le matériel promotionnel du jeu comme l'affiche du jeu et les publications sur le site web et les médias sociaux",
+          "content": "Une fois la création des différents éléments visuels terminée, j’ai finalement travaillé sur le matériel promotionnel du jeu comme l’affiche du jeu, les publications sur les médias sociaux et même une bannière pour les évènements.",
           "image": "/assets/images/projects/mathEnJeu/MEJ_07_Promo.png"
         }
       ]
     }
+  },
+  "conclusion": {
+    "title": "Conclusion",
+    "content": "Math en jeu a été un projet stimulant et enrichissant qui m’a appris beaucoup sur plusieurs aspects de la création de jeu allant de l’animation, à la création d’éléments 3D, à la collaboration avec les programmeurs, jusqu’à l’intégration."
   }
 }
