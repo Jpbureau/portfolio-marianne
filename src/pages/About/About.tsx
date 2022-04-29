@@ -1,23 +1,19 @@
 import React from "react";
 import "./aboutStyles.css";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
+import Paragraphs from "../../components/Project/Paragraphs";
 
 const About: React.FC = () => {
+  const content = [
+    "Allo, je m’appelle Marianne ! Je suis designer UX/UI et actuellement étudiante à la maîtrise en design d’interaction de l’Université Laval.",
+    "Lors de mon parcours universitaire, j’ai développé une passion pour l’expérience utilisateur et la création d’interfaces, tout particulièrement dans le domaine du jeu vidéo. C’est d’ailleurs ce qui m’a poussée à travailler pour la refonte d’un jeu éducatif, d’entamer mon apprentissage de Unity et même de commencer mes propres projets de jeu. Toutes les étapes du processus de conception m’intéressent, allant de la recherche et l’élaboration de maquettes fonctionnelles jusqu’à l’intégration.",
+    "À l’écoute, ouverte d’esprit et curieuse, j’aime toujours en apprendre plus et acquérir de nouvelles compétences en design, mais aussi dans d’autres domaines comme l’animation, l’illustration et la programmation qui me permettent de concrétiser davantage mes idées",
+  ];
+
   return (
     <div className="about-container">
       <h2 className="about-title">à propos de moi</h2>
-      <h3 className="about-subtitle">Allo, je m’appelle Marianne !</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-        rhoncus sem, a cursus neque. Sed sodales malesuada risus, non elementum
-        mauris ultricies et. Nulla vestibulum, urna et porta porta, lacus metus
-        convallis odio, sed rutrum arcu justo at erat. Nullam venenatis, dui a
-        dictum imperdiet, leo ligula luctus massa, et tristique augue leo sit
-        amet felis. In pretium augue vitae pretium sollicitudin. Quisque nulla
-        nulla, dictum ut nisi nec, auctor tristique erat. Nulla in nibh sodales,
-        sagittis lectus sodales, egestas dui. Vivamus commodo a mauris vitae
-        ultricies.
-      </p>
+      <Paragraphs paragraphs={content} />
       <div className="download-container">
         <a href="">
           <HiOutlineDocumentDownload size={70} />
