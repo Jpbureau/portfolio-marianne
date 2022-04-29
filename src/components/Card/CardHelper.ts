@@ -12,22 +12,27 @@ import {
   C05eD,
   C05LB,
   C05MEJ,
+  eD_Load,
+  LB_Load,
+  MEJ_Load,
 } from "../../assets/images";
 import Layer from "../../models/Layer";
 
-export const getParallaxImages = (projectName: string): Layer[] => {
+export const getParallaxImages = (
+  projectName: string
+): { layers: Layer[]; loadingImage: string } => {
   switch (projectName) {
     case "eyeDesigner":
-      return layerListEyeDesigner;
+      return { layers: layerListEyeDesigner, loadingImage: eD_Load };
 
     case "Lightbeans":
-      return layerListLightbeans;
+      return { layers: layerListLightbeans, loadingImage: LB_Load };
 
     case "Math en jeu":
-      return layerListMEJ;
+      return { layers: layerListMEJ, loadingImage: MEJ_Load };
 
     default:
-      return [];
+      return { layers: [], loadingImage: "" };
   }
 };
 

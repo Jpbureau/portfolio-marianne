@@ -2,12 +2,16 @@ import React, { useEffect, useRef } from "react";
 import TWEEN from "tween.ts";
 import "./cardParallaxStyles.css";
 import Layer from "../../models/Layer";
+import { useState } from "react";
 
 interface Props {
   layers: Layer[];
+  loadingImage: string;
 }
 
-const CardParallax: React.FC<Props> = ({ layers }) => {
+const CardParallax: React.FC<Props> = ({ layers, loadingImage }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
   const canvasRef = useRef<HTMLCanvasElement>(null!);
   const containerRef = useRef<HTMLDivElement>(null);
   let moving = false;
@@ -79,6 +83,7 @@ const CardParallax: React.FC<Props> = ({ layers }) => {
           loadCounter++;
 
           if (loadCounter >= layers.length) {
+            setIsLoaded(true);
             // Start the render Loop!
             render();
           }
@@ -159,6 +164,7 @@ const CardParallax: React.FC<Props> = ({ layers }) => {
         width={900}
         height={1000}
       ></canvas>
+      {!isLoaded && <img className={"loading-img"} src={loadingImage} alt="" />}
     </div>
   );
 };

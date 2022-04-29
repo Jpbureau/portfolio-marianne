@@ -10,13 +10,16 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ cardInfo, onCardClick }) => {
-  const layers = getParallaxImages(cardInfo.name);
+  const parallaxInfo = getParallaxImages(cardInfo.name);
 
   return (
     <div className="card" onClick={() => onCardClick(cardInfo.url)}>
       <h3>{cardInfo.name}</h3>
       <p className="smol-text">{cardInfo.description}</p>
-      <CardParallax layers={layers} />
+      <CardParallax
+        layers={parallaxInfo.layers}
+        loadingImage={parallaxInfo.loadingImage}
+      />
     </div>
   );
 };
