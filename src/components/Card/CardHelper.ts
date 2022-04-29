@@ -1,23 +1,17 @@
 import {
-  cadre02,
-  eyeDBG05,
-  eyeDCarte03,
-  eyeDesignerWatch04,
-  eyeDTop01,
-  layer1,
-  layer2,
-  layer3,
-  layer4,
-  layer5,
-  layer6,
-  layer7,
-  layer8,
-  lightBeansBG04,
-  lightBeansComposante03,
-  lightBeansTop01,
-  MEJBG04,
-  MEJPerso03,
-  MEJTop01,
+  C01eD,
+  C01LB,
+  C01MEJ,
+  C02eD,
+  C02LB,
+  C02MEJ,
+  C03CADRE,
+  C04eD,
+  C04LB,
+  C04MEJ,
+  C05eD,
+  C05LB,
+  C05MEJ,
 } from "../../assets/images";
 import Layer from "../../models/Layer";
 
@@ -40,7 +34,7 @@ export const getParallaxImages = (projectName: string): Layer[] => {
 const layerListEyeDesigner: Layer[] = [
   {
     image: new Image(),
-    src: eyeDBG05,
+    src: C05eD,
     z_index: -2.25,
     position: { x: 0, y: 0 },
     blend: null,
@@ -48,7 +42,7 @@ const layerListEyeDesigner: Layer[] = [
   },
   {
     image: new Image(),
-    src: eyeDesignerWatch04,
+    src: C04eD,
     z_index: -1,
     position: { x: 0, y: 0 },
     blend: null,
@@ -56,7 +50,7 @@ const layerListEyeDesigner: Layer[] = [
   },
   {
     image: new Image(),
-    src: cadre02,
+    src: C03CADRE,
     z_index: 0,
     position: { x: 0, y: 0 },
     blend: null,
@@ -64,7 +58,7 @@ const layerListEyeDesigner: Layer[] = [
   },
   {
     image: new Image(),
-    src: eyeDCarte03,
+    src: C02eD,
     z_index: 0.8,
     position: { x: 0, y: 0 },
     blend: null,
@@ -72,7 +66,7 @@ const layerListEyeDesigner: Layer[] = [
   },
   {
     image: new Image(),
-    src: eyeDTop01,
+    src: C01eD,
     z_index: 2,
     position: { x: 0, y: 0 },
     blend: null,
@@ -83,7 +77,7 @@ const layerListEyeDesigner: Layer[] = [
 const layerListLightbeans: Layer[] = [
   {
     image: new Image(),
-    src: lightBeansBG04,
+    src: C05LB,
     z_index: -2.25,
     position: { x: 0, y: 0 },
     blend: null,
@@ -91,7 +85,15 @@ const layerListLightbeans: Layer[] = [
   },
   {
     image: new Image(),
-    src: cadre02,
+    src: C04LB,
+    z_index: -1,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+  {
+    image: new Image(),
+    src: C03CADRE,
     z_index: 0,
     position: { x: 0, y: 0 },
     blend: null,
@@ -99,7 +101,7 @@ const layerListLightbeans: Layer[] = [
   },
   {
     image: new Image(),
-    src: lightBeansComposante03,
+    src: C02LB,
     z_index: 0.8,
     position: { x: 0, y: 0 },
     blend: null,
@@ -107,7 +109,7 @@ const layerListLightbeans: Layer[] = [
   },
   {
     image: new Image(),
-    src: lightBeansTop01,
+    src: C01LB,
     z_index: 2,
     position: { x: 0, y: 0 },
     blend: null,
@@ -118,7 +120,7 @@ const layerListLightbeans: Layer[] = [
 const layerListMEJ: Layer[] = [
   {
     image: new Image(),
-    src: MEJBG04,
+    src: C05MEJ,
     z_index: -2.25,
     position: { x: 0, y: 0 },
     blend: null,
@@ -126,7 +128,15 @@ const layerListMEJ: Layer[] = [
   },
   {
     image: new Image(),
-    src: cadre02,
+    src: C04MEJ,
+    z_index: -1,
+    position: { x: 0, y: 0 },
+    blend: null,
+    opacity: 1,
+  },
+  {
+    image: new Image(),
+    src: C03CADRE,
     z_index: 0,
     position: { x: 0, y: 0 },
     blend: null,
@@ -134,7 +144,7 @@ const layerListMEJ: Layer[] = [
   },
   {
     image: new Image(),
-    src: MEJPerso03,
+    src: C02MEJ,
     z_index: 0.8,
     position: { x: 0, y: 0 },
     blend: null,
@@ -142,77 +152,10 @@ const layerListMEJ: Layer[] = [
   },
   {
     image: new Image(),
-    src: MEJTop01,
+    src: C01MEJ,
     z_index: 2,
     position: { x: 0, y: 0 },
     blend: null,
     opacity: 1,
-  },
-];
-
-const basicLayerList: Layer[] = [
-  {
-    image: new Image(),
-    src: layer1,
-    z_index: -2.25,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer2,
-    z_index: -2,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer3,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer4,
-    z_index: -0.5,
-    position: { x: 0, y: 0 },
-    blend: "overlay",
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer5,
-    z_index: -1.25,
-    position: { x: 0, y: 0 },
-    blend: "multiply",
-    opacity: 0.75,
-  },
-  {
-    image: new Image(),
-    src: layer6,
-    z_index: 0,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer7,
-    z_index: 0.8,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 1,
-  },
-  {
-    image: new Image(),
-    src: layer8,
-    z_index: 2,
-    position: { x: 0, y: 0 },
-    blend: null,
-    opacity: 0.9,
   },
 ];
